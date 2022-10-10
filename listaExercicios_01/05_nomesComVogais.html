@@ -1,10 +1,6 @@
 <meta charset="UTF-8">
 <script>
-    //PROBLEMA
-    //Considere a lista de nomes abaixo:
-    // let listaDeNomes = ["Amanda", "Eduardo", "Fábio", "Evelin", "César", "José", "Ivo", "Eva", "Otávio", "Inez", "Osmar", "Ulisses"];
-    //Identifique os nomes que começam com qualquer vogal (A, E, I, O, U) e apresente os nomes em ordem alfabética.
-
+   
     let listaDeNomes = ["Amanda", "Eduardo", "Fábio", "Evelin", "César", "José", "Ivo", "Eva", "Otávio", "Inez", "Osmar", "Ulisses"];
     listaDeNomes.sort();
     let nomesA = [];
@@ -12,7 +8,7 @@
     let nomesI = [];
     let nomesO = [];
     let nomesU = [];
-    //PROCESSAMENTO
+
 
     for (let nome of listaDeNomes) {
         switch (nome[0]) {
@@ -44,6 +40,5 @@
                     Nomes começam com I: ${nomesI}</br></br>
                     Nomes começam com O: ${nomesO}</br></br>
                     Nomes começam com U: ${nomesU}`)
-    //SAÍDA
-
+   
 </script>
